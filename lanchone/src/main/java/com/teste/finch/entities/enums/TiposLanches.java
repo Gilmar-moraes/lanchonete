@@ -15,11 +15,11 @@ public enum TiposLanches {
             case X_BACON:
                 return Arrays.asList(Ingredientes.BACON, Ingredientes.HAMBURGUER, Ingredientes.QUEIJO);
             case X_BURGUER:
-            	return Arrays.asList(Ingredientes.BACON, Ingredientes.HAMBURGUER, Ingredientes.QUEIJO);
+            	return Arrays.asList(Ingredientes.HAMBURGUER, Ingredientes.QUEIJO);
             case X_EGG:
-            	return Arrays.asList(Ingredientes.BACON, Ingredientes.HAMBURGUER, Ingredientes.QUEIJO);
+            	return Arrays.asList(Ingredientes.OVO, Ingredientes.HAMBURGUER, Ingredientes.QUEIJO);
             case X_EGG_BACON:
-            	return Arrays.asList(Ingredientes.BACON, Ingredientes.HAMBURGUER, Ingredientes.QUEIJO);
+            	return Arrays.asList(Ingredientes.OVO, Ingredientes.BACON, Ingredientes.HAMBURGUER, Ingredientes.QUEIJO);
             default:
                 break;
         }

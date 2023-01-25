@@ -10,6 +10,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.ManyToMany;
 import jakarta.persistence.Table;
 
 /*
@@ -43,7 +44,7 @@ public class Pedido implements Serializable {
 	private String nomeCliente;
 
 	private TiposLanches lanche;
-	
+	@ManyToMany
 	private List<Extras> addIngredientes;
 	
 	private double total;
